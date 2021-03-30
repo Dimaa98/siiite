@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*Главный экран*/
+.general{
+background: linear-gradient(294.95deg, #FF0000 16.46%, #FFC700 94.63%);
+width: 1600px;
+height: 900px;
+}
+/*панель навигации*/
+.nav{
+	display: flex;
+	align-items: center;
+width: 1499px;
+height: 72px;
+padding: 64px 0px 0px 101px;
+
+}
+/* Название лого*/
+ .logoname{
+ 	font-family: Montserrat;
+    font-weight: 800;
+    font-size: 28px;
+ 	margin-right: 187px;
+ 	margin-left: 15px;
+
+ }
+ /*Меню навигации*/
+ .menu{
+ 	list-style-type: none;
+    display: flex;
+    padding-inline-start:0px;
+
+ }
+/*каждая ссылка*/
+ .hrefnav{
+ 	text-decoration: none;
+ 	color: black;
+ 	margin-right: 68px;
+ 	font-family: Montserrat;
+    font-size: 22px;
+
+
+ }
+/*Жирным выделил Главная*/
+#navbold{
+	font-weight: bold;
+}
+/*Блок с корзиной и суммой покупок*/
+.buy{
+	display: flex;
+	align-items: center;
+	margin-left: 101px;
+
+}
+
+.expense{
+	margin-left: 12px;
+	font-family: Montserrat;
+	font-size: 24px;
+	margin-right: 3px;
+}
+
+/*НАВИГАЦИЯ СВРЕХУ*/
+/*<!-- ОФФЕР ДЕСКРИТОР И КНОПКА СНИЗУ -->*/
+.container{
+	width: 622px;
+    height: 353px;
+    margin: 176px 763px 235px 215px;
+
+}
+
+.offer{
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 800;
+	margin-bottom: 36px;
+}
+
+.discriptor{
+	font-family: Montserrat;
+	font-size: 28px;
+	width: 430px;
+	margin-bottom: 36px;
+	line-height: 1.35em;
+}
+
+.btn{
+	background: #FA5774;
+    box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 272px;
+height: 73px;
+font-family: Montserrat;
+font-weight: bold;
+font-size: 24px;
+}
+/*<!-- ОФФЕР ДЕСКРИПТОР И КНОПКА СВЕРХУ -->
+/*<!-- КАРТИНКА СНИЗУ -->*/
+.flowers {
+	position: absolute;
+left: 758px;
+top: 172px;
+}
+/*<!-- КАРТИНКА СВЕРХУ -->*/
+
+h2 {
+	padding: 54px 0 0 215px;
+	font-family: Montserrat;
+    font-weight: 800;
+    font-size: 32px;
+}
+.info{
+	width: 1600px;
+    height: 517px;
+    display:flex;
+    margin: 26px 0 0 215px;
+    
+}
+
+.Pone{
+width: 570px;
+height: 491px;
+font-family: Montserrat;
+font-size: 24px;
+line-height: 150%;
+margin-right: 30px;
+}
+
+.Ptwo{
+width: 565px;
+height: 491px;
+font-family: Montserrat;
+font-size: 24px;
+line-height: 150%;
+}
+
+.gallery{
+	width: 1130px;
+    height: 600px;
+    display: flex;
+	align-items: center;
+	padding:52px 0 0 235px;
+
+}
+
+footer{
+	width: 1600px;
+	height: 300px;
+	background: #000;
+	margin-top: 50px;
+}
